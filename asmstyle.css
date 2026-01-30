@@ -38,6 +38,10 @@ body {
     background: white;
     margin-right: 10px;
 }
+.menu {
+    display: flex;
+    margin-left: 76%;
+}
 
 .menu a {
     color: white;
@@ -86,6 +90,18 @@ body {
 .banner-text p {
     font-size: 18px;
 }
+.gioithieu {
+    font-size: 18px;        /* chữ to hơn */
+    line-height: 1.8;       /* giãn dòng */
+    letter-spacing: 0.5px;  /* giãn khoảng cách chữ */
+    word-spacing: 2px;      /* giãn khoảng cách giữa các từ */
+
+    width: 90%;             /* không cho kéo dài hết trang */
+    margin: auto;           /* căn giữa */
+    
+    text-align: justify;    /* căn đều 2 bên đẹp hơn */
+}
+
 
 .section {
     padding: 40px 60px;
@@ -140,11 +156,61 @@ body {
     margin-bottom: 10px;
 }
 
-
-footer {
-    background: #0b5ed7;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 40px;
+.video-container {
+    display: flex;
+    justify-content: center; /* căn giữa ngang */
+    margin: 30px 0;         /* cách trên dưới */
 }
+
+.video-container iframe {
+    width: 850px;   /* to hơn */
+    height: 480px;  /* cao hơn */
+    border-radius: 12px; /* bo góc đẹp */
+}
+.map-container {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* căn giữa ngang */
+    align-items: center;
+    margin: 30px 0;
+}
+
+.map-container iframe {
+    width: 80%;      /* bản đồ nhỏ lại */
+    height: 350px;
+    border: 0;
+    border-radius: 15px;
+}
+
+.footer {
+    background: #0b63d1;
+    color: white;
+    padding: 15px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 14px;
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-right {
+    text-align: right;
+}
+.footer-left a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: 0.3s;
+}
+
+.footer-left a:hover {
+    color: yellow;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
