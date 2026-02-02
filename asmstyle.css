@@ -101,13 +101,6 @@ body {
     
     text-align: justify;    /* căn đều 2 bên đẹp hơn */
 }
-.screen2-item img {
-    width: 100%;          /* ảnh full ngang khung */
-    height: 200px;        /* cố định chiều cao */
-    object-fit: cover;    /* cắt ảnh vừa khung, không méo */
-    border-radius: 10px;  /* bo góc cho đẹp */
-    display: block;
-}
 
 
 .section {
@@ -161,6 +154,17 @@ body {
 .screen2-item h3 {
     color: #0b5ed7;
     margin-bottom: 10px;
+}
+.screen2-item img {
+    width: 100%;          /* ảnh full ngang khung */
+    height: 200px;        /* cố định chiều cao */
+    object-fit: cover;    /* cắt ảnh vừa khung, không méo */
+    border-radius: 10px;  /* bo góc cho đẹp */
+    display: block;
+}
+.screen2-item {
+    text-align: center;
+    padding: 15px;
 }
 
 .video-container {
@@ -220,5 +224,6 @@ body {
     text-decoration: underline;
     font-weight: bold;
 }
+
 
 
