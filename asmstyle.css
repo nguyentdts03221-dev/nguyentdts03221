@@ -101,6 +101,13 @@ body {
     
     text-align: justify;    /* căn đều 2 bên đẹp hơn */
 }
+.screen2-item img {
+    width: 100%;          /* ảnh full ngang khung */
+    height: 200px;        /* cố định chiều cao */
+    object-fit: cover;    /* cắt ảnh vừa khung, không méo */
+    border-radius: 10px;  /* bo góc cho đẹp */
+    display: block;
+}
 
 
 .section {
@@ -213,4 +220,5 @@ body {
     text-decoration: underline;
     font-weight: bold;
 }
+
 
