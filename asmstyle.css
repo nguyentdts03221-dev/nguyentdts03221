@@ -166,6 +166,17 @@ body {
     text-align: center;
     padding: 15px;
 }
+.screen2-item p {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #0b4db8;
+    padding: 8px 12px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 12px;
+}
+
 
 .video-container {
     display: flex;
@@ -191,6 +202,31 @@ body {
     height: 350px;
     border: 0;
     border-radius: 15px;
+}
+.map-info{
+    text-align: center;
+    margin-top: 12px;
+}
+
+.map-info p{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #0b4db8;
+}
+
+.map-info a{
+    display: inline-block;
+    padding: 8px 14px;
+    background: #0b4db8;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.map-info a:hover{
+    background: #083a8a;
 }
 
 .footer {
@@ -224,6 +260,7 @@ body {
     text-decoration: underline;
     font-weight: bold;
 }
+
 
 
 
