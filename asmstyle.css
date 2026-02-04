@@ -20,6 +20,60 @@ body {
     top: 0;
     z-index: 1000;
 }
+/* HOME GRID giống ảnh */
+
+.home-grid {
+    width: 90%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.home-box h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: orange;
+    border-bottom: 2px solid orange;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+.box-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.box-content img {
+    width: 180px;
+    height: 110px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.box-content p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.box-content ul {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.video-box iframe {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Hoạt động nổi bật chiếm ngang */
+.full-width {
+    grid-column: span 2;
+}
 
 
 .logo {
@@ -28,6 +82,10 @@ body {
     color: white;
     font-weight: bold;
     font-size: 18px;
+}
+.logo {
+    text-decoration: none;
+    color: white;
 }
 
 .logo img {
@@ -314,7 +372,6 @@ html {
     text-decoration: underline;
     font-weight: bold;
 }
-
 
 
 
